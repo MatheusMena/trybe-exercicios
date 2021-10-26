@@ -14,4 +14,7 @@
 // exercicio 5
 // console.log(document.getElementById("elementoOndeVoceEsta").previousElementSibling)
 
-console.log(document.getElementById("elementoOndeVoceEsta").nextSibling)
+// exercicio 6
+// console.log(document.getElementById("elementoOndeVoceEsta").nextSibling)
+
+console.log(document.getElementById("elementoOndeVoceEsta").nextElementSibling)
