@@ -5,4 +5,7 @@
 // let addColor = document.getElementById("elementoOndeVoceEsta").parentNode
 // addColor.style.color = "green"
 
-document.getElementById("primeiroFilhoDoFilho").innerText = " adicione texto aqui";
+// exercicio 3 
+// document.getElementById("primeiroFilhoDoFilho").innerText = " adicione texto aqui";
+
+console.log(document.getElementById('pai').firstElementChild)
