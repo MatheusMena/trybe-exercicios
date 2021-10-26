@@ -8,4 +8,7 @@
 // exercicio 3 
 // document.getElementById("primeiroFilhoDoFilho").innerText = " adicione texto aqui";
 
-console.log(document.getElementById('pai').firstElementChild)
+// exercicio 4 
+// console.log(document.getElementById('pai').firstElementChild)
+
+console.log(document.getElementById("elementoOndeVoceEsta").previousElementSibling)
