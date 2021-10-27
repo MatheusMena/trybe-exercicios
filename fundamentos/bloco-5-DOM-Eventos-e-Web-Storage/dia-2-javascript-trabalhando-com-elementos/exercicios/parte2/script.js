@@ -14,12 +14,18 @@
 
 // 3---Crie um filho para primeiroFilhoDoFilho .
 
-let pai = document.getElementById("primeiroFilhoDoFilho");
-let filhoFilho = document.createElement('section');
-filhoFilho.id = "filhoFilho";
-pai.appendChild(filhoFilho);
+// let pai = document.getElementById("primeiroFilhoDoFilho");
+// let filhoFilho = document.createElement('section');
+// filhoFilho.id = "filhoFilho";
+// pai.appendChild(filhoFilho);
 
-// 4 ---A partir desse filho criado, acesse terceiroFilho .
+// // 4 ---A partir desse filho criado, acesse terceiroFilho .
 
-let acess = document.getElementById("filhoFilho");
-console.log(acess.parentElement.parentElement.nextElementSibling)
+// let acess = document.getElementById("filhoFilho");
+// console.log(acess.parentElement.parentElement.nextElementSibling)
+
+// parte 3;
+
+// exercicio 1
+
+Remova todos os elementos filhos de paiDoPai exceto pai , elementoOndeVoceEsta e primeiroFilhoDoFilho
