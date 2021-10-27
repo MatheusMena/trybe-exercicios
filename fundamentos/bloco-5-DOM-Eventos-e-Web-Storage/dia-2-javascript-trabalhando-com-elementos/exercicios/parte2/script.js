@@ -5,7 +5,9 @@
 // filhoNovo.id = 'filhoNovo';
 // novoFilho.appendChild(filhoNovo);
 
-let pai = document.getElementById('pai');
-let abacadraba = document.createElement('figo');
-abacadraba.id = "abacadraba"
-pai.appendChild(abacadraba);
+// 2 ---Crie um filho para elementoOndeVoceEsta .
+
+let pai = document.getElementById('elementoOndeVoceEsta');
+let filhoMaisNovo = document.createElement('section')
+filhoMaisNovo.id = 'filhoMaisNovo';
+pai.appendChild(filhoMaisNovo);
