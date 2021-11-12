@@ -16,7 +16,7 @@
 
 
 //   testingScope(true);
-  const oddsAndEvens = [13, 3, 4, 10, 7, 2];
+  let oddsAndEvens = [13, 3, 4, 10, 7, 2];
 
 const sortOddsAndEvens = () => {
   oddsAndEvens[0] = 2;
@@ -27,12 +27,13 @@ const sortOddsAndEvens = () => {
   oddsAndEvens[5] = 13;
 
   return oddsAndEvens;
+  
 }
-
 const sortedArray = sortOddsAndEvens();
-console.log(`Os números ${sortedArray} se encontram ordenados de forma crescente !`);
+// console.log(`Os números ${sortedArray} se encontram ordenados de forma crescente !`);
 
-      console.log(oddsAndEvens); // será necessário alterar essa linha 😉
+      console.log(sortedArray.sort()); 
 
+// let arr = [1,4,3,2];
 
-//     
+//    console.log(arr.sort());
